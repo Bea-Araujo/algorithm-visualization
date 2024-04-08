@@ -23,7 +23,7 @@ export const Section = styled.section`
     justify-content: center;
     align-items: center;
     transition: .3s;
-    
+    background-color: #a6a6a6;
 }
 
 .inactive {
@@ -64,6 +64,14 @@ export const Section = styled.section`
 
 .target {
     background-color: #f29516;
+}
+
+.compared {
+    background-color: burlywood;
+}
+
+.target.compared{
+    background: linear-gradient(90deg, #f29516, burlywood);
 }
 
 `
